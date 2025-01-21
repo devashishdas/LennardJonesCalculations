@@ -7,7 +7,7 @@ This repository contains a Python script to compute the interaction energy of a 
 - Extracts interaction energies from Gaussian log files.
 - Converts energies to kcal/mol and subtracts reference energy for proper fitting.
 - Fits the interaction energies to the Lennard-Jones potential function.
-- Produces a publication-ready plot of the potential curve.
+- Produces a plot of the potential curve.
 
 ## Prerequisites
 Ensure the following dependencies are installed:
@@ -26,8 +26,8 @@ pip install numpy matplotlib scipy
 ## Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/helium-dimer-lj.git
-   cd helium-dimer-lj
+   git clone https://github.com/devashishdas/LennardJonesCalculations.git
+   cd LennardJonesCalculations
    ```
 
 2. Run the script:
@@ -37,22 +37,11 @@ pip install numpy matplotlib scipy
 
 3. View the generated Lennard-Jones potential plot (`he_dimer_lj_plot.pdf`).
 
-### Adding Images to README
-To include images in your README, follow these steps:
-1. Save your plot image in the repository folder (e.g., `images/he_dimer_lj_plot.png`).
-2. Add the image to the README using Markdown syntax:
-   ```markdown
-   ![Helium Dimer Lennard-Jones Potential](images/he_dimer_lj_plot.png)
-   ```
-   Replace `images/he_dimer_lj_plot.png` with the relative path to your image.
-
-## File Structure
-- `S0.py`: Main Python script for generating input files, running calculations, extracting results, and plotting.
-- `FILES/`: Directory for Gaussian files (created automatically).
-- `he_dimer_lj_plot.pdf`: Output plot showing the Lennard-Jones potential curve.
-
-## Example Plot
+## Generated Plot
 ![Helium Dimer Lennard-Jones Potential](he_dimer_lj_plot-1.png)
+
+It is near to the experimental values. I will try with CCSD and changing the distances next.
+Please suggest improvements. 
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
