@@ -25,7 +25,7 @@ Helium Dimer Counterpoise Calculation
 distances = np.linspace(2.5, 4.5, 40).tolist() + np.linspace(4.6, 8.0, 20).tolist()
 
 # Function to create input files
-def create_input_files(distances, input_dir="inputs"):
+def create_input_files(distances, input_dir="FILES"):
     os.makedirs(input_dir, exist_ok=True)
     for dist in distances:
         half_dist = dist / 2
