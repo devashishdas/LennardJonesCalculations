@@ -43,6 +43,14 @@ pip install numpy matplotlib scipy
 It is near to the experimental values. I will try with CCSD and changing the distances next.
 Please suggest improvements. 
 
+## References
+
+- **ε (kcal/mol)**: Estimates range from approximately 0.011 to 0.013 kcal/mol.
+
+- **σ (Å)**: Estimates range from approximately 2.56 to 2.97 Å.
+
+https://pubs.acs.org/doi/10.1021/acs.jpca.1c00012
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
