@@ -36,7 +36,7 @@ def create_input_files(distances, input_dir="inputs"):
         print(f"Input file created: {input_path}")
 
 # Function to run Gaussian and extract results
-def run_gaussian_and_extract_energies(distances, input_dir="inputs", output_dir="inputs"):
+def run_gaussian_and_extract_energies(distances, input_dir="FILES", output_dir="FILES"):
     os.makedirs(output_dir, exist_ok=True)
     energies = []
     for dist in distances:
