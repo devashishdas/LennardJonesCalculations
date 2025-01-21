@@ -48,8 +48,7 @@ To include images in your README, follow these steps:
 
 ## File Structure
 - `S0.py`: Main Python script for generating input files, running calculations, extracting results, and plotting.
-- `inputs/`: Directory for Gaussian input files (created automatically).
-- `outputs/`: Directory for Gaussian log files (created automatically).
+- `FILES/`: Directory for Gaussian files (created automatically).
 - `he_dimer_lj_plot.pdf`: Output plot showing the Lennard-Jones potential curve.
 
 ## Example Plot
