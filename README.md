@@ -53,7 +53,7 @@ To include images in your README, follow these steps:
 - `he_dimer_lj_plot.pdf`: Output plot showing the Lennard-Jones potential curve.
 
 ## Example Plot
-![Helium Dimer Lennard-Jones Potential](images/he_dimer_lj_plot.png)
+![Helium Dimer Lennard-Jones Potential](he_dimer_lj_plot-1.png)
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
